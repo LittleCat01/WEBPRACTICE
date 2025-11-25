@@ -1,0 +1,30 @@
+/* .three {
+  background-color: rgb(244, 244, 244);
+  background-image: url(./stic/G4o0iJPWkAElZDw.jpg);
+}
+.one {
+  font-size: 50px;
+  line-height: 10px;
+  color: rgb(130, 24, 195);
+  text-align: center;
+}
+.two {
+  zoom: 50%;
+  opacity: 100%;
+  display: block;
+  margin: auto;
+} */
+
+.biaoti {
+  font-size: larger;
+}
+.wenben {
+  font-size: medium;
+  font-style: normal;
+  color: #f8876d;
+}
+.teshu {
+  font-size: small;
+  font-style: italic;
+  color: blueviolet;
+}
