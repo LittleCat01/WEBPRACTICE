@@ -1,15 +1,31 @@
-.back1 {
-  width: 100%;
-  height: 100%;
-  border: 1px solid black;
-  background-color: rgb(217, 217, 218);
+.body {
+  width: 100vw;
+  height: 100vh;
+  border-width: 1px;
+  border-radius: 5px;
+  border-style: dashed;
+  border-color: rgb(152, 152, 152);
+  /* border: dashed rgb(152, 152, 152); */
 }
 .box {
-  width: 200px;
-  height: 200px;
-  border: 1px solid black;
+  width: 40px;
+  height: 40px;
   background-color: blueviolet;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(254, 254, 254);
+  border-radius: 5px;
+
+  font-size: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .container {
+  width: 100vw;
+  height: 100vh;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
