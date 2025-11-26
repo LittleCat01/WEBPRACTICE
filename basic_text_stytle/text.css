@@ -1,0 +1,37 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  text-align: center;
+  font-size: 50px;
+  color: rgb(56, 69, 81);
+  text-shadow: 1px 1px 1px rgb(56, 69, 81);
+}
+.font {
+  font-family: "YouYuan", "FangSong", Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.highlight {
+  font-weight: bold;
+  background-color: rgb(217, 217, 125);
+}
+.blockquote {
+  margin: 10px 0;
+  border-left: 4px solid rgb(120, 140, 241);
+  padding-left: 10px;
+  font-style: italic;
+  color: rgb(140, 140, 140);
+}
+.alink {
+  color: rgb(51, 177, 196);
+  text-decoration: none;
+}
+.alink:hover {
+  color: brown;
+  text-decoration: underline;
+}
