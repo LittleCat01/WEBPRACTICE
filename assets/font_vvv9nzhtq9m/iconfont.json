@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "848173",
+      "name": "地址",
+      "font_class": "dizhi",
+      "unicode": "e777",
+      "unicode_decimal": 59255
+    },
+    {
+      "icon_id": "13520164",
+      "name": "电话",
+      "font_class": "dianhua",
+      "unicode": "e64d",
+      "unicode_decimal": 58957
+    },
+    {
+      "icon_id": "39711622",
+      "name": "邮箱",
+      "font_class": "youxiang",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    }
+  ]
+}

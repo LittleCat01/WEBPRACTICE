@@ -1,0 +1,94 @@
+.body {
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(229, 229, 229);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.up {
+  background: radial-gradient(
+    circle at center,
+    #ffdd00 0%,
+    /* 最中心：亮黄 */ #ff9500 25%,
+    /* 第一层：橙色 */ #ff2d55 50%,
+    /* 第二层：粉色 */ #5856d6 75%,
+    /* 第三层：紫色 */ #007aff 100% /* 最边缘：蓝色 */
+  );
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  height: 150px;
+  width: 250px;
+}
+.ava {
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.name {
+  color: aliceblue;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.work {
+  color: #ececec;
+  font-size: 8px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.down {
+  background-color: rgb(252, 252, 252);
+  border-radius: 0 0 10px 10px;
+  height: 150px;
+  width: 250px;
+}
+.iconfont {
+  font-size: 40px;
+  color: #000000;
+  margin-right: 5px;
+}
+.msg {
+  font-size: 12px;
+  line-height: 2;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.msg1 {
+  margin-top: 15px;
+}
+.social {
+  /* background-color: #007aff; */
+  height: 40px;
+  width: 250px;
+  font-size: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.s {
+  margin: 0px 10px;
+  /* width: 30px;
+  height: 30px;
+  border-radius: 100px;
+  background-color: rgb(236, 236, 236); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  margin-bottom: 2px;
+}
