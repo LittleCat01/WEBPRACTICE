@@ -1,0 +1,162 @@
+:root {
+  --color-bg: #fafafa;
+  --color-border: #000;
+  --color-gray: #a5a5a5;
+  --spacing: 20px;
+}
+
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  background-color: #ffffff;
+  /* padding: 30px; */
+  border: 1px solid black;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.name {
+  margin-left: 5px;
+  font-size: 25px;
+}
+.guide a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+.header_up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_up a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+.guide {
+  margin-right: 20px;
+}
+.header_title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.header_p {
+  text-align: center;
+  color: #a5a5a5;
+}
+.header {
+  border-bottom: 1px solid black;
+  padding: 30px;
+}
+.projects__list {
+  display: flex;
+  justify-content: space-between;
+}
+.side_left {
+  width: 30%;
+  border-right: 1px black solid;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.middle {
+  width: 30%;
+  border-right: 1px black solid;
+}
+.side_right {
+  width: 40%;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.list {
+  /* margin-left: 20px; */
+  /* margin: 0; */
+}
+.reviews__item {
+  border-top: black 1px solid;
+  padding: 0 30px;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box {
+  width: 20%;
+  height: auto;
+  border: black solid 1px;
+  border-radius: 30px;
+  padding: 30px;
+  margin-top: 20px;
+  list-style: none;
+}
+.lilist {
+  margin-bottom: 40px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.header__title {
+  font-size: 25px;
+}
+
+.main_up {
+  padding: 0 10px;
+}
+.main_down {
+  padding: 0 10px;
+}
+.side_item {
+  padding-left: 20px;
+}
+.hr_middle {
+  margin-top: 20px;
+}
+.full_with {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .projects__list {
+    flex-direction: column;
+  }
+  .side_left,
+  .middle,
+  .side_right {
+    width: 100%;
+    border: none;
+    margin-bottom: var(--spacing);
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 80%;
+    margin: 20px auto;
+  }
+  .main_up {
+    border-top: 1px solid black;
+  }
+  .side_right {
+    border-top: 1px solid black;
+  }
+}

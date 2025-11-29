@@ -7,9 +7,18 @@ author：max
 - git 也熟悉一下，把这个练习文件传到云仓库
 - 还有一些 linux 的基本命令
 
+# 特别火的 vib coding
+
+- 看看这篇文章https://www.ruanyifeng.com/blog/2025/11/trae-solo.html
+- 也就是 ai 编程
+- 免费的 trea 可以试试，主要是免费
+- 貌似最牛的是 cursor，但是花钱啊
+- 再就是手动去文本生成 ai，目前好像 Gemini 最厉害
+
 # linux
 
 - 这个主要看这里 https://labex.io/zh/linuxjourney
+- 基本命令学习都免费，还用是好用，但是一大堆付费的要，先大概了解一些就行了
 
 # MarkDown
 
@@ -19,9 +28,41 @@ author：max
 
 - 这个也很简单，有个文档[./stic/Git 入门教程]
 
-# web 参考资料
+# 为啥前端开始
+
+- 有人说前端不存在了，因为 ai
+- 但是这个玩意，见效快，写完就看见效果，反馈好的不行，玩游戏也就玩个反馈对不对，也没啥游戏好玩的
+- 就当玩游戏了，也确实挺好玩的
+
+# web 前端 参考资料
 
 - https://web.qianguyihao.com/
+
+# 前端学习路线图
+
+- https://roadmap.sh/frontend
+  - 这个项目不错，是个前端学习路线图，GitHub 开源项目
+  - 然后有一堆循序渐进的小项目练习
+  - 这些项目没有教你咋做，就是自己查资料弄，弄出来就行，不是还有 ai 吗
+  - ai 让学习变得容易了很多
+
+# 个人学习感受
+
+- 先大概看看有啥东西
+- 找 ai，或者找小项目直接开干，还是自己动手做才有感觉
+- 不会了问 ai
+- 多复盘，记不住的不记，理解就行，反正可以问 ai
+- 用的多了就会了，这样比较有体验
+
+# 这个仓库的目录结构
+
+- html_note 这个是一开始实验性看了看 html 各种标签是啥，看效果的，大概看了看
+- basic_text_stytle 这个是用 css 看一些基本的文本样式，大概看了看
+- first_page 这个是自己弄了个页面，引入样式表，看看咋回事
+- box_example 这个是研究盒子模型的，看看 border，pedding，margin 这些属性的
+- flex_practice1/2 这个是研究 flex 布局的
+- basic_flex 这是第一个项目，静态页面，flex 开始又点感觉
+- card_parctice 这个是第二个项目，写个名片，引入 sv 一些 icon，还是在理解 flex
 
 # html
 

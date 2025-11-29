@@ -1,0 +1,111 @@
+.bg {
+  width: 100%;
+  height: 100%;
+  background-color: #d9d9d9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  background-color: #fafafa;
+  /* padding: 30px; */
+  border: 1px solid black;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+}
+.name {
+  margin-left: 5px;
+  font-size: 25px;
+}
+.header_up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.guide {
+  margin-right: 20px;
+}
+.header_title {
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+.header_p {
+  text-align: center;
+  color: #a5a5a5;
+}
+.header {
+  border-bottom: 1px solid black;
+  padding: 30px;
+}
+.up {
+  display: flex;
+  justify-content: space-between;
+}
+.side_left {
+  width: 30%;
+  border-right: 1px black solid;
+}
+.middle {
+  width: 30%;
+}
+.side_right {
+  width: 40%;
+  border-left: 1px solid black;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+.list {
+  margin-left: 20px;
+}
+.down {
+  border-top: black 1px solid;
+  padding: 0 30px;
+}
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box {
+  width: 20%;
+  height: 200px;
+  border: black solid 1px;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.title2 {
+  font-size: 25px;
+}
+
+.main_up {
+  padding: 0 10px;
+}
+.main_down {
+  padding: 0 10px;
+}
+.side_item {
+  padding-left: 20px;
+}
+.hr_middle {
+  margin-top: 20px;
+}
+.full_with {
+  color: black;
+}

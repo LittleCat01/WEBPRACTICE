@@ -1,0 +1,54 @@
+hr {
+  color: rgb(27, 27, 27);
+  height: 2px;
+  background-color: rgb(85, 85, 85);
+}
+.contex {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: rgb(40, 131, 40);
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+.title2 {
+  color: rgb(18, 125, 219);
+}
+.exp {
+  display: flex;
+  flex-direction: column;
+}
+.time {
+  margin-bottom: 10px;
+}
+.list {
+  margin-bottom: 10px;
+  padding-left: 20px;
+}
+
+.container {
+  border: rgb(215, 215, 215) solid 1px;
+  width: 600px;
+  padding: 20px;
+  background-color: rgb(253, 253, 253);
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin-right: 1px;
+}
+.pro {
+  display: flex;
+  justify-content: space-between;
+}
+.background {
+  background-color: rgb(203, 203, 203);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
