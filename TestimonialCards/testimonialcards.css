@@ -1,0 +1,181 @@
+.icon {
+  width: 2em;
+  height: 2em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  margin: 40px;
+  color: rgb(187, 187, 187);
+}
+
+.container {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.colum1 {
+  display: flex;
+  align-items: baseline;
+}
+
+.colum {
+  width: 900px;
+  margin: 20px 0;
+}
+
+.card {
+  margin: 0 20px;
+}
+
+.content1 {
+  width: 400px;
+  height: auto;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 25px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  position: relative;
+}
+.content1__arrow {
+  position: absolute;
+  top: 100%;
+  left: 40px;
+
+  width: 0;
+  height: 0;
+
+  border-left: 10px solid transparent; /* 左边框：透明 */
+  border-right: 10px solid transparent; /* 右边框：透明 */
+  border-top: 10px solid #000000; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+  border-bottom: 10px solid transparent; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+}
+.avatar1 {
+  width: 100px;
+  border-radius: 100px;
+}
+.profile1 {
+  margin-left: 10px;
+}
+.name1 {
+  font-size: 30px;
+  margin: 0;
+}
+.title1 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0;
+}
+.person1 {
+  display: flex;
+  align-items: center;
+}
+
+.card2__white {
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.content2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.avatar2 {
+  width: 100px;
+  border-radius: 100px;
+}
+.profile2 {
+  margin-left: 10px;
+}
+.name2 {
+  font-size: 30px;
+  margin: 0;
+}
+.title2 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0;
+}
+.person2 {
+  display: flex;
+  align-items: center;
+}
+
+.card3__big {
+  display: flex;
+}
+.avatar3 {
+  width: 300px;
+  border-radius: 20px;
+}
+.content__card {
+  /* width: 500px; */
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+}
+.name3 {
+  font-size: 30px;
+  margin: 0;
+}
+.title3 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 0;
+}
+.content3 {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.card4__slide {
+  /* width: 860px; */
+  height: auto;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.content4 {
+  font-size: 25px;
+  text-align: center;
+  margin: 40px;
+}
+.avatar4 {
+  width: 80px;
+  border-radius: 100px;
+  opacity: 50%;
+}
+.avatar6 {
+  width: 80px;
+  border-radius: 100px;
+  opacity: 50%;
+}
+
+.avatar5 {
+  width: 100px;
+  border-radius: 100px;
+  margin: 10px 20px;
+}
+
+.conponent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name5 {
+  margin: 0;
+}
