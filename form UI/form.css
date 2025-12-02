@@ -1,0 +1,94 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  width: 400px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 20px;
+
+  display: flex;
+}
+.input__box {
+  width: 60%;
+  margin-right: 20px;
+}
+.name,
+.email,
+.enter__password,
+.confirm__password {
+  margin-bottom: 20px;
+}
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+}
+input::placeholder {
+  color: rgb(201, 201, 201);
+  padding-left: 10px;
+}
+.password__conponent1,
+.password__conponent2 {
+  position: relative;
+}
+.eye1,
+.eye2 {
+  width: 30px;
+  height: 20px;
+  font-size: 5px;
+
+  position: absolute;
+  top: 5px;
+  right: 10px;
+
+  background-color: transparent;
+  border: none;
+}
+.button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+.conponent {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.progress {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.check__list {
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+
+  background-color: #f3f3f3;
+
+  list-style: none;
+
+  font-size: 12px;
+}
+li {
+  margin-bottom: 10px;
+}
+s {
+  color: rgb(201, 201, 201);
+}
