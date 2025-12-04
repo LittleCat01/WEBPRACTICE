@@ -1,0 +1,176 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #efefef;
+}
+
+.justify {
+  height: 200px;
+  width: 400px;
+
+  border: 1px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #fcfcfc;
+}
+
+.projects__hover {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box2 {
+  position: relative;
+}
+
+.projects__arrow {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+
+  width: 0;
+  height: 0;
+
+  border-left: 10px solid transparent; /* 左边框：透明 */
+  border-right: 10px solid transparent; /* 右边框：透明 */
+  border-top: 10px solid #000000; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+  border-bottom: 10px solid transparent; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+}
+
+.blog__hover {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box3 {
+  position: relative;
+}
+
+.blog__arrow {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+
+  width: 0;
+  height: 0;
+
+  border-left: 10px solid transparent; /* 左边框：透明 */
+  border-right: 10px solid transparent; /* 右边框：透明 */
+  border-top: 10px solid #000000; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+  border-bottom: 10px solid transparent; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+}
+
+.home__hover {
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box1 {
+  position: relative;
+}
+
+.home__arrow {
+  position: absolute;
+  top: 100%;
+  left: 45%;
+
+  width: 0;
+  height: 0;
+
+  border-left: 10px solid transparent; /* 左边框：透明 */
+  border-right: 10px solid transparent; /* 右边框：透明 */
+  border-top: 10px solid #000000; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+  border-bottom: 10px solid transparent; /* 上边框：设置成你想要的颜色（这里是深灰色） */
+}
+
+.home {
+  position: relative;
+}
+
+.tip1 {
+  position: absolute;
+
+  bottom: 200%;
+  right: -110px;
+  display: none;
+}
+
+.projects {
+  position: relative;
+}
+
+.tip2 {
+  position: absolute;
+
+  bottom: 200%;
+  right: -100px;
+  display: none;
+}
+
+.blog {
+  position: relative;
+}
+
+.tip3 {
+  position: absolute;
+
+  bottom: 200%;
+  right: -140px;
+  display: none;
+}
+
+.home,
+.projects,
+.blog,
+.dian {
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.home:hover .tip1 {
+  display: block;
+}
+
+.projects:hover .tip2 {
+  display: block;
+}
+
+.blog:hover .tip3 {
+  display: block;
+}
+
+.home__hover,
+.projects__hover,
+.blog__hover {
+  background-color: black;
+  color: white;
+}
