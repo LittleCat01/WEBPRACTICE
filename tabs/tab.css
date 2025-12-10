@@ -1,0 +1,45 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: rgb(235, 235, 235);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 600px;
+  height: 400px;
+
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 10px;
+
+  background-color: white;
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.tabs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tab {
+  margin-right: 20px;
+  font-size: 30px;
+  color: rgb(158, 158, 158);
+}
+
+.artical {
+  margin-top: 20px;
+}
+
+.content1,
+.content2,
+.content3,
+.content4 {
+  display: none;
+}

@@ -1,0 +1,43 @@
+.smp {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+
+  margin: 0;
+  padding: 0;
+  border: 2px solid rgb(0, 0, 0);
+
+  box-sizing: border-box;
+
+  border-radius: 10px;
+}
+
+.smallPicture {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bip {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+
+  border-radius: 10px;
+
+  transition: opacity 0.5s ease;
+}
+
+.background {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 20px;
+
+  background-color: rgb(17, 17, 17);
+}
+
+.smp.active {
+  border-color: blueviolet;
+}
